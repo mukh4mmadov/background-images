@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.box {
+  height: 600px;
+  width: 600px;
+  border: 2px solid;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.football {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.football a {
+  color: inherit;
+}
+
+.menu {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/FOOTBALL.jpg);
+}
+
+.menu h1 {
+  margin-bottom: 30px;
+  font-style: 50px;
+}
+
+menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-style: 20px;
+}
+
+.football h2 {
+  font-style: 35px;
+  margin-bottom: 15px;
+}
+
+.football a {
+  font-style: 25px;
+}
+
+.bg-Ronaldo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/Ronaldo.jpg);
+}
+
+.bg-Messi {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/messi.jpg);
+}
+
+.bg-Neymar {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/neymar1.jpg);
+}
+
+.bg-Mbappe {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/Mbappe.jpg);
+}
+
+.bg-Abbos {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/abbos.jpg);
+}
